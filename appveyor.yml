@@ -11,5 +11,6 @@ build:
 test:
   assemblies:
     - 'bin\*\*.test.dll'
-  script:
+
+test_script:
     - nunit-console <assembly> --result=TestResult.xml;format=AppVeyor
