@@ -2,7 +2,7 @@ version: 1.0.{build}
 configuration: Release 
 
 before_build:
-    - nuget restore
+  - nuget restore
     
 build:
   project: cscpci.sln
@@ -11,3 +11,5 @@ build:
 test:
   assemblies:
     - 'bin\*\*.test.dll'
+  script:
+    - nunit-console <assembly> --result=TestResult.xml;format=AppVeyor
