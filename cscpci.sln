@@ -2,12 +2,18 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cshapp", "cshapp\src\cshapp.csproj", "{EDB396C3-2995-4390-8FAA-C8F55CA1A7D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cshapp.test", "cshapp\test\cshapp.test.csproj", "{D5823717-6E25-4FFF-8E12-2B312C03C68C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|Any CPU = Release|Any CPU
+		  Debug|Any CPU =   Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EDB396C3-2995-4390-8FAA-C8F55CA1A7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB396C3-2995-4390-8FAA-C8F55CA1A7D2}.Debug|Any CPU.Build.0   =   Debug|Any CPU
+		{D5823717-6E25-4FFF-8E12-2B312C03C68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5823717-6E25-4FFF-8E12-2B312C03C68C}.Debug|Any CPU.Build.0   =   Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
