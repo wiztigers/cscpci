@@ -13,4 +13,4 @@ test:
     - 'bin\*\*.test.dll'
 
 test_script:
-    - nunit-console <assembly> --result=TestResult.xml;format=AppVeyor
+    - nunit-console cshapp\bin\Release\cshapp.test.dll --result=TestResult.xml;format=AppVeyor
