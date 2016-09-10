@@ -6,7 +6,6 @@ before_build:
     
 build:
   project: cscpci.sln
-  verbosity: minimal
 
 test:
   assemblies:
